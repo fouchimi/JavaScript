@@ -8,11 +8,9 @@ function LetterCountI(str) {
 }
 
 function checkDuplicateLetters(str) {
-  console.log(str);
   let myMap = new Map();
   for(let i = 0; i < str.length; i++) {
     if(!myMap.has(str.charAt(i))) {
-      console.log("Char: " + str.charAt(i));
       myMap.set(str.charAt(i), [str.charAt(i)]);
     }else return "Found";
   }
