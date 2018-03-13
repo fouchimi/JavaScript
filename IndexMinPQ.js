@@ -79,6 +79,7 @@ indexMinPQ.insert(25);
 indexMinPQ.insert(1);
 indexMinPQ.insert(2);
 indexMinPQ.insert(7);
+indexMinPQ.insert(8);
 indexMinPQ.print();
 indexMinPQ.delMin();
 indexMinPQ.print();
