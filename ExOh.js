@@ -13,3 +13,4 @@ function ExOh(str) {
 
 console.log(ExOh("xooxxo"));
 console.log(ExOh("x"));
+console.log(ExOh("xxoo"));
